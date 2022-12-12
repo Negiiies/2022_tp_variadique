@@ -1,0 +1,10 @@
+
+#include "dure.h"
+int stu_vputs(unsigned int nbr, ...);
+int main(void)
+{
+    int i;
+    i = stu_vputs(4, "je","suis","ton", "père");
+    stu_vputs(1, (char *) i+'0');
+    return 0;
+}
