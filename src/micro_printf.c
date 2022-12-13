@@ -36,30 +36,3 @@ int stu_micro_printf(const char *pattern, ...)
     return (n);
 }
 
-
-
-
-
-
-
-    /*
-        //printf("\ni = %d", i);
-            // printf("\ndans boucle i = %d", i);
-                // printf("\ni = %d", i);
-                i += 2;
-                printf("i = %d", i);
-        }
-        if ((pattern[i] == '%') && (pattern[i + 1] == '%')) {
-            }
-
-
-
-
-        
-        
-        i += 1;
-    }
-    va_end(ap);
-    return (0);
-}
-    */
