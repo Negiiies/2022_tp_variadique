@@ -4,11 +4,14 @@
 # 1st author:  dylan.le - dylan.le
 # description: Building the project
 
-NAME	=	variadique
+NAME	=	var
 
-SRCS	=	src/vputs.c		\
-		src/vputs.test.c	\
-		src/stu_strlen.c	
+SRCS	=	src/stu_strlen.c	\
+		src/mini_printf.c	\
+		src/mini_printf.test.c	\
+		src/get_digit.c		\
+		src/nb_len.c		\
+		src/print_base10.c
 
 
 OBJS	=	$(SRCS:.c=.o)
